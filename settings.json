@@ -29,3 +29,70 @@
         "terminal.ansiWhite": "#a89984f4",
         "terminal.ansiYellow": "#fac13bf1"
     }
+
+
+
+    {
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme",
+    "debug.toolBarLocation": "commandCenter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+        ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+        "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+        "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    },
+    "editor.codeActionsOnSave" : {
+    
+        "source.fixAll": "explicit"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#dddad6e7",
+        "terminal.ansiBlack": "#1d2021f3",
+        "terminal.ansiBrightBlack": "#665c54e3",
+        "terminal.ansiBrightBlue": "#0d6678ef",
+        "terminal.ansiBrightCyan": "#8ba59bec",
+        "terminal.ansiBrightGreen": "#237e02ee",
+        "terminal.ansiBrightMagenta": "#8f4673ee",
+        "terminal.ansiBrightRed": "#fb553ff2",
+        "terminal.ansiBrightWhite": "#fdf4c1ed",
+        "terminal.ansiBrightYellow": "#fac13bed",
+        "terminal.ansiBlue": "#00a2f9f1",
+        "terminal.ansiCyan": "#8ba59bf8",
+        "terminal.ansiGreen": "#95c085f2",
+        "terminal.ansiMagenta": "#8f4673ec",
+        "terminal.ansiRed": "#fb553ff5",
+        "terminal.ansiWhite": "#a89984f4",
+        "terminal.ansiYellow": "#fac13bf1"
+    },
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "[html]": {
+        
+        "editor.suggest.insertMode": "replace"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "bitoAI.appearance.fontSize (Match with IDE Font)": false,
+    "bitoAI.codeCompletion.enableAutoCompletion": true,
+    "bitoAI.codeCompletion.enableCommentToCode": true,
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "codeium.enableConfig": {
+        "*": true,
+        "Log": true,
+        "plaintext": true
+    }
+      
+}
